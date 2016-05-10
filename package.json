@@ -1,0 +1,41 @@
+{
+  "name": "eracle",
+  "version": "0.0.0",
+  "description": "The uncomplicated job scheduler",
+  "homepage": "https://github.com/nicolaorritos/eracle#readme",
+  "author": "Nicola Orritos <nicola.orritos@gmail.com> (nicolaorritos.github.io)",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaorritos/eracle.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "os": [
+    "linux"
+  ],
+  "dependencies": {
+    "docopt": "^0.6.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.4.1",
+    "time-grunt": "^1.3.0",
+    "grunt-mocha-cli": "^2.0.0",
+    "jshint-stylish": "^2.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolaorritos/eracle/issues"
+  }
+}
